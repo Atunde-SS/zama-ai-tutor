@@ -21,9 +21,7 @@ Follow these instructions to get the Zama AI Tutor running on your local machine
 ### Prerequisites
 
 *   A modern web browser (Chrome, Firefox, Safari, Edge).
-*   [Git](https://git-scm.com/) installed on your machine.
 *   A code editor like [Visual Studio Code](https://code.visualstudio.com/).
-*   The [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension for VS Code is recommended for the easiest setup.
 
 ### Step 1: Get Your Google Gemini API Key
 
@@ -33,25 +31,25 @@ This application uses the Google Gemini API to power its AI features. You will n
 2.  Click **"Get API key"** and sign in with your Google account.
 3.  Click **"Create API key in new project"**.
 4.  Copy your generated API key. Keep it safe and private.
+<img width="1311" height="706" alt="image" src="https://github.com/user-attachments/assets/b76eaf07-98ab-4f72-acf2-9b1637e4f837" />
 
 ### Step 2: Clone the Repository
 
 Open your terminal or command prompt and run the following command to clone the project to your computer:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Atunde-SS/zama-ai-tutor.git
 cd zama-ai-tutor
 ```
-*(Note: Replace `<repository_url>` with the actual URL of the repository)*
 
 ### Step 3: Run the Application
+```bash
+npm i
+#next
+npm run dev
 
-This project is a pure frontend application and can be run with any simple local web server. The easiest way is using the **Live Server** extension in VS Code.
-
-1.  Open the cloned `zama-ai-tutor` folder in VS Code.
-2.  Right-click on the `index.html` file in the file explorer.
-3.  Select **"Open with Live Server"**.
-4.  A new browser tab will open with the application running.
+```
+  A new browser tab will open with the application running.
 
 ### Step 4: Enter Your API Key
 
@@ -74,6 +72,7 @@ You can easily deploy your own version of the Zama AI Tutor to Vercel.
 6.  Click **"Deploy"**.
 
 Once deployed, you can access your personal AI tutor from anywhere and share the link with others. The app will ask for a Gemini API key on the first visit, just like it does locally.
+<img width="1357" height="680" alt="image" src="https://github.com/user-attachments/assets/4b1ad181-2783-49a8-9096-bdbb6ceb76e5" />
 
 ## Technology Stack
 

@@ -1,0 +1,5 @@
+{
+  "name": "Zama AI Tutor",
+  "description": "An AI-powered tutor and guide for learning about the Zama protocol and FHEVM. It provides a structured learning path from fundamentals to advanced dApp development.",
+  "requestFramePermissions": []
+}
